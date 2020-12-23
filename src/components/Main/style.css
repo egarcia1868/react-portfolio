@@ -1,0 +1,9 @@
+#topSection {
+  margin-top: 100px;
+}
+
+@media screen and (max-width: 991px) {
+  #topSection {
+    margin-top: 138px
+  }
+}

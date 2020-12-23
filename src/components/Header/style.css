@@ -1,19 +1,16 @@
 #sticky {
-  margin-top: 40px;
+  background: rgba(255, 255, 255, .95);
+  padding: 10px 0;
   font-size: 1.65rem;
   position: fixed;
   top: 0;
+  z-index: 1;
   /* width: 100% */
 }
 
-#toptext {
+.toptext {
   float: left;
   margin: 5px 0 0 20px;
-  transition: color 1s;
-}
-
-#toptext:hover, a:hover {
-  color: deepskyblue;
 }
 
 #bioPic {
@@ -26,16 +23,3 @@
   color: #aaa;
   transition: color 1s;
 }
-
-/* @media screen and (max-width: 991px) {
-  #topline {
-    margin: 0 50%; 
-  }
-
-}
-
-@media screen and (max-width: 767px) {
-  #topline {
-    margin: 0 20%; 
-  }
-} */
