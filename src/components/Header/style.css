@@ -1,0 +1,41 @@
+#sticky {
+  margin-top: 40px;
+  font-size: 1.65rem;
+  position: fixed;
+  top: 0;
+  /* width: 100% */
+}
+
+#toptext {
+  float: left;
+  margin: 5px 0 0 20px;
+  transition: color 1s;
+}
+
+#toptext:hover, a:hover {
+  color: deepskyblue;
+}
+
+#bioPic {
+  height: 5.5rem;
+  float: left;
+  border-radius: 4.5rem;
+}
+
+.gray {
+  color: #aaa;
+  transition: color 1s;
+}
+
+/* @media screen and (max-width: 991px) {
+  #topline {
+    margin: 0 50%; 
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+  #topline {
+    margin: 0 20%; 
+  }
+} */
