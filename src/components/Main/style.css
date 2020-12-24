@@ -2,6 +2,14 @@
   margin-top: 100px;
 }
 
+#intro {
+  color: black;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 4rem;
+  line-height: 100%;
+  height: 300px;
+}
+
 @media screen and (max-width: 991px) {
   #topSection {
     margin-top: 138px

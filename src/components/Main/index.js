@@ -1,27 +1,72 @@
-import React from "react";
+
+// eslint-disable-next-line no-unused-vars
+import React, { useState, useEffect } from "react";
+import Typing from "react-typing-animation";
 import "./style.css";
 
+
+//  I think I need to make a function that will generate a new function for each letter for the fade in.
+
 const Main = () => {
+  // const [messageState, setMessageState] = useState("")
+
+  // let messageUpdate = "";
+
+  // opacity: new Animated.Value(0)
+
+  // const taco = (text) => {
+  //   text.split("").forEach(function(e) {
+  //   // el.append(e);
+  //     // e.hide();
+  //     // console.log(e)
+  //     // setTimeout(function() {
+  //       // e.fadeIn(300)
+  //       setMessageState(messageState+e)
+  //     // }, 1)/
+  //   })
+  //   console.log("ms: "+messageState)
+  // }
+  
+  // var textElements = firstLine.split("").map(function(c) {
+  //   return $('<span id="' + c + '">' + c + '</span>');
+  // });
+  
+  // var el = $('#letters');
+   // Tune this for different letter delays.
+  
+  // const introFourth = () => {
+  //   return (
+  //     <p>
+        
+  //     </p>
+  //   )
+  // }
+
+// useEffect(() => { 
+//   taco(firstLine);
+//   // taco(secondLine);
+//   // taco(thirdLine);
+// }, [])
+
   return (
     <main>
       <div className="row" id="topSection">
         <div className="col-xl-2 col-lg-2 col-1">
         </div>
         <div className="col-xl-8 col-lg-8 col-10">
-          <div className="intro">
-            <p>
-              <span id="idea">Have an idea for a site or application?</span>
+          <div id="intro">
+            <Typing speed={1}>
+              <p>Have an idea for a site or application?</p>
+              <Typing.Delay ms={1000} />
+              <p>Need to revamp an existing website?</p>
+              <Typing.Delay ms={1000} />
+              <p>Or just need a hand with a project?</p>
+              <Typing.Delay ms={1000} />
+              <p>
+                <a className="gray" style={{"textDecoration": "none"}} href="mailto:egarcia1868@gmail.com"><span id="chat1"
+                >Let's chat</span></a> <span id="chat2">and see how I can help!</span>
             </p>
-            <p>
-              <span id="revamp" hidden>Need to revamp an existing website?</span>
-            </p>
-            <p>
-              <span id="hand" hidden>Or just need a hand with a project?</span>
-            </p>
-            <p>
-              <a className="gray" style={{"textDecoration": "none"}} href="mailto:egarcia1868@gmail.com"><span id="chat1"
-                  hidden>Let's chat</span></a> <span id="chat2" hidden>and see how I can help!</span>
-            </p>
+            </Typing>
           </div>
         </div>
         <div className="col-xl-2 col-lg-2 col-1">
