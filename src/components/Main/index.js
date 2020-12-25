@@ -4,49 +4,7 @@ import React, { useState, useEffect } from "react";
 import Typing from "react-typing-animation";
 import "./style.css";
 
-
-//  I think I need to make a function that will generate a new function for each letter for the fade in.
-
 const Main = () => {
-  // const [messageState, setMessageState] = useState("")
-
-  // let messageUpdate = "";
-
-  // opacity: new Animated.Value(0)
-
-  // const taco = (text) => {
-  //   text.split("").forEach(function(e) {
-  //   // el.append(e);
-  //     // e.hide();
-  //     // console.log(e)
-  //     // setTimeout(function() {
-  //       // e.fadeIn(300)
-  //       setMessageState(messageState+e)
-  //     // }, 1)/
-  //   })
-  //   console.log("ms: "+messageState)
-  // }
-  
-  // var textElements = firstLine.split("").map(function(c) {
-  //   return $('<span id="' + c + '">' + c + '</span>');
-  // });
-  
-  // var el = $('#letters');
-   // Tune this for different letter delays.
-  
-  // const introFourth = () => {
-  //   return (
-  //     <p>
-        
-  //     </p>
-  //   )
-  // }
-
-// useEffect(() => { 
-//   taco(firstLine);
-//   // taco(secondLine);
-//   // taco(thirdLine);
-// }, [])
 
   return (
     <main>
@@ -71,6 +29,7 @@ const Main = () => {
         </div>
         <div className="col-xl-2 col-lg-2 col-1">
         </div>
+        <div className="col-12"></div>
       </div>
       <div className="labelBar" id="about">
         <h1>
@@ -90,7 +49,7 @@ const Main = () => {
             </p>
             <p className="bio">
               When I'm not coding (and not hiding from the plague), you can usually find me out rock climbing, at a
-              concert or comedy show, or -if its football season- watching the Cowboys toy with my emotions.
+              concert or comedy show, or -if its football season- watching the Dallas Cowboys toy with my emotions.
             </p>
           </div>
         </div>
@@ -113,12 +72,12 @@ const Main = () => {
         </div>
         <div className="col-xl-5 col-lg-5 col-6">
           <p className="bio titleSkills">
-            Team Management
+            Commitment to Excellence
           </p>
           <p className="bio">
-            Sometimes when tackling large problems, teams can start to meander and deviate from the main objective. As a
-            member of a team, I can help keep things on track by steering everyone back towards accomplishing our task at
-            hand if the team starts to stray or progress begins to stagnate.
+            When working independently I work tenaciously to not only fulfill, but surpass expectations.
+            <br />
+            When working in groups, I often find myself helping others or taking on additional tasks after finishing my original tasks early.
           </p><br />
           <p className="bio titleSkills">
             Staying Current With Technology
@@ -126,6 +85,12 @@ const Main = () => {
           <p className="bio">
             In the field of web development, one must always be learning new languages and frameworks. I make it a point
             to stay up to date with the latest and most widely used coding languages in the industry.
+          </p><br />
+          <p className="bio titleSkills">
+            Fast Learner
+          </p>
+          <p className="bio">
+            During my time in class, I often found myself to be the first to pick up on new frameworks or techniques.  If I don’t yet possess knowledge of a certain technology that you prefer or require, I do possess the ability to pick it up quicker than most.
           </p>
         </div>
         <div className="col-xl-1 col-lg-1">

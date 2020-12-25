@@ -1,3 +1,11 @@
+h1 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+  text-align: center;
+  color: white;
+  padding-top: 85px;
+}
+
 #topSection {
   margin-top: 100px;
 }
@@ -10,8 +18,46 @@
   height: 300px;
 }
 
+.labelBar {
+  background: deepskyblue;
+  width: 101.2%;
+  height: 21.5rem;
+  margin-bottom: 50px;
+}
+
+.bio {
+  color: #777777;
+  line-height: 200%;
+  font-size: 17px;
+}
+
+.skills {
+  font-size: 38px;
+  line-height: 100%;
+  font-weight: 400;
+}
+
+.titleSkills {
+  font-size: 2.5rem;
+  line-height: 100%;
+}
+
 @media screen and (max-width: 991px) {
   #topSection {
     margin-top: 138px
   }
+}
+
+@media screen and (max-width: 799px) {
+  .skills {
+    
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 559px) {
+  #about {
+    margin-top: 60px;
+  }
+
 }
