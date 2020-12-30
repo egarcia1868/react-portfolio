@@ -2,8 +2,11 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <div>
-    </div>
+    <footer>
+      <p>
+        Copyright &copy; 2020 Eric Garcia
+      </p>
+    </footer>
   )
 };
 

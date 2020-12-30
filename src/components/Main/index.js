@@ -3,6 +3,7 @@
 import React from "react";
 import Typing from "react-typing-animation";
 import Icon from "../Icon";
+import Card from "../Card";
 import gitIcon from "../../assets/images/icons/giticon.png";
 import githubIcon from "../../assets/images/icons/github.png";
 import reactIcon from "../../assets/images/icons/reacticon.png";
@@ -17,6 +18,13 @@ import bootstrapIcon from "../../assets/images/icons/bootstrap-4.png";
 import herokuIcon from "../../assets/images/icons/Herokuicon.png";
 import jQueryIcon from "../../assets/images/icons/jQueryicon.png";
 import handlebarsIcon from "../../assets/images/icons/handlebarsJSicon.jpeg";
+import boardGamePic from "../../assets/images/Boardgame.gif";
+import employeeDirectoryPic from "../../assets/images/react-employee-directory.gif";
+import expediLogPic from "../../assets/images/expediLog.png";
+import eatDaBurgerPic from "../../assets/images/EatDaBurger.png";
+import casaCocktailsPic from "../../assets/images/CasaCocktailsPic.png";
+import weatherAppPic from "../../assets/images/WeatherScreenShot.png";
+import resume from "../../assets/Resume.pdf"
 import "./style.css";
 
 const Main = () => {
@@ -225,161 +233,55 @@ const Main = () => {
         <div className="col-xl-1 col-lg-1">
         </div>
         <div className="col-xl-10 col-lg-10 col-12">
-          <div className="card">
-            <a href="https://warm-bayou-44198.herokuapp.com/" target="_blank" rel="noreferrer">
-              <img className="portfolioPic " src="./assets/images/Boardgame.gif" alt="À la Board" />
-              </a>
-            <div className="card-body">
-              <h2>
-                À la Board
-              </h2>
-              <p className="card-text">
-                An app for organizing board game parties. Uses a database to help share which games are
-                owned by party attendees to know what games are available to be played.
-              </p>
-            </div>
-            <p className="card-stack">
-              Stack:
-            </p>
-            <p className="card-text">
-              HTML, CSS, JavaScript, React.js, MySQL / JawsDB, REST API
-            </p>
-            <div className="card-footer">
-              <div className="portfolioLinkDivs"><a href="https://github.com/egarcia1868/A-La-Board" target="_blank" rel="noreferrer"
-                  aria-label="link to github repo"><i className="fab fa-github portfolioLinks"></i></a></div>
-              <div className="portfolioLinkDivs"><a href="https://warm-bayou-44198.herokuapp.com/" target="_blank" rel="noreferrer"
-                  aria-label="link to deployed site"><i className="fas fa-external-link-alt portfolioLinks"></i></a></div>
-            </div>
-          </div>
-          <div className="card">
-            <a href="https://cryptic-lowlands-31610.herokuapp.com/" target="_blank" rel="noreferrer">
-              <img className="portfolioPic " src="./assets/images/react-employee-directory.gif" alt="react employee directory" />
-            </a>
-            <div className="card-body">
-              <h2>
-                React Employee Directory
-              </h2>
-              <p className="card-text">
-                An employee (superhero) directory that changes it's employee display order based on whichever category is clicked.
-              </p>
-            </div>
-            <p className="card-stack">
-              Stack:
-            </p>
-            <p className="card-text">
-              HTML, CSS, JavaScript, React.js, Bootstrap
-            </p>
-            <div className="card-footer">
-              <div className="portfolioLinkDivs"><a href="https://github.com/egarcia1868/Work_Day_Scheduler" target="_blank" rel="noreferrer"
-                  aria-label="link to github repo"><i className="fab fa-github portfolioLinks"></i></a></div>
-              <div className="portfolioLinkDivs"><a href="https://egarcia1868.github.io/Workday_Scheduler/" target="_blank" rel="noreferrer"
-                  aria-label="link to deployed site"><i className="fas fa-external-link-alt portfolioLinks"></i></a></div>
-            </div>
-          </div>
-          <div className="card">
-            <a href="https://project-2-3-21-20.herokuapp.com/" target="_blank" rel="noreferrer">
-              <img className="portfolioPic " src="./assets/images/expediLog.png" alt="expediLog" />
-            </a>
-            <div className="card-body">
-              <h2>
-                expediLog
-              </h2>
-              <p className="card-text">
-                An app for logging trip experiences - displaying the ability to use sequelize to store and retrieve data
-                from databases.
-              </p>
-            </div>
-            <p className="card-stack">
-              Stack:
-            </p>
-            <p className="card-text">
-              HTML, CSS, JavaScript, Express.js, MySQL / JawsDB, AJAX, REST API
-            </p>
-            <div className="card-footer">
-              <div className="portfolioLinkDivs"><a href="https://github.com/egarcia1868/expediLog" target="_blank" rel="noreferrer"
-                  aria-label="link to github repo"><i className="fab fa-github portfolioLinks"></i></a></div>
-              <div className="portfolioLinkDivs"><a href="https://project-2-3-21-20.herokuapp.com/" target="_blank" rel="noreferrer"
-                  aria-label="link to deployed site"><i className="fas fa-external-link-alt portfolioLinks"></i></a></div>
-            </div>
-          </div>
-          <div className="card">
-            <a href="https://whispering-ridge-27306.herokuapp.com/" target="_blank" rel="noreferrer">
-              <img className="portfolioPic " src="./assets/images/EatDaBurger.png" alt="EatDaBurger" />
-            </a>
-            <div className="card-body">
-              <h2>
-                MVC Demo App
-              </h2>
-              <p className="card-text">
-                A simple app displaying the ability to use the MVC (Model-View-Controller) design pattern.
-              </p>
-            </div>
-            <p className="card-stack">
-              Stack:
-            </p>
-            <p className="card-text">
-              HTML, CSS, JavaScript, handlebars.js, Node.js, Express, MySQL / JawsDB, MVC / ORM, Boostrap
-            </p>
-            <div className="card-footer">
-              <div className="portfolioLinkDivs"><a href="https://github.com/egarcia1868/MVC-proof-of-concept" target="_blank" rel="noreferrer"
-                  aria-label="link to github repo"><i className="fab fa-github portfolioLinks"></i></a></div>
-              <div className="portfolioLinkDivs"><a href="https://whispering-ridge-27306.herokuapp.com/" target="_blank" rel="noreferrer"
-                  aria-label="link to deployed site"><i className="fas fa-external-link-alt portfolioLinks"></i></a></div>
-            </div>
-          </div>
-          <div className="card">
-            <a href="https://egarcia1868.github.io/Casa-Cocktail/" target="_blank" rel="noreferrer">
-              <img className="portfolioPic " src="./assets/images/CasaCocktailsPic.png" alt="Casa Cocktails" />
-            </a>
-            <div className="card-body">
-              <h2>
-                Casa Cocktails
-              </h2>
-              <p className="card-text">
-                An app for finding out what drinks can be made with what you have on hand including instruction on how to
-                make them.
-              </p>
-            </div>
-            <p className="card-stack">
-              Stack:
-            </p>
-            <p className="card-text">
-              H​TML, CSS, JavaScript, AJAX, jQuery, REST API
-            </p>
-            <div className="card-footer">
-              <div className="portfolioLinkDivs"><a href="https://github.com/egarcia1868/Casa-Cocktail" target="_blank" rel="noreferrer"
-                  aria-label="link to github repo"><i className="fab fa-github portfolioLinks"></i></a></div>
-              <div className="portfolioLinkDivs"><a href="https://egarcia1868.github.io/Casa-Cocktail/" target="_blank" rel="noreferrer"
-                  aria-label="link to deployed site"><i className="fas fa-external-link-alt portfolioLinks"></i></a></div>
-            </div>
-          </div>
-          <div className="card">
-            <a href="https://egarcia1868.github.io/Weather_Dashboard/" target="_blank" rel="noreferrer">
-              <img className="portfolioPic " src="./assets/images/WeatherScreenShot.png" alt="Weather Dashboard" />
-            </a>
-            <div className="card-body">
-              <h2>
-                Weather Dashboard
-              </h2>
-              <p className="card-text">
-                An app that retrieves the current weather for a searched city along with the weather forecast for the next five days.
-              </p>
-            </div>
-            <p className="card-stack">
-              Stack:
-            </p>
-            <p className="card-text">
-              HTML, CSS, JavaScript, AJAX, jQuery, Moment.js, Bootstrap, REST API
-            </p>
-            <div className="card-footer">
-              <div className="portfolioLinkDivs"><a href="https://github.com/egarcia1868/Weather_Dashboard" target="_blank" rel="noreferrer"
-                  aria-label="link to github repo"><i className="fab fa-github portfolioLinks"></i></a></div>
-              <div className="portfolioLinkDivs"><a href="https://egarcia1868.github.io/Weather_Dashboard/" target="_blank" rel="noreferrer"
-                  aria-label="link to deployed site"><i className="fas fa-external-link-alt portfolioLinks"></i></a></div>
-            </div>
-          </div>
-        </div>
-      
+          <Card
+            url="https://warm-bayou-44198.herokuapp.com/"
+            src={boardGamePic}
+            title="À la Board"
+            description="An app for organizing board game parties. Uses a database to help share which games are owned by party attendees to know what games are available to be played."
+            stack="HTML, CSS, JavaScript, React.js, MySQL / JawsDB, REST API"
+            github="https://github.com/egarcia1868/A-La-Board"
+          />
+          <Card
+            url="https://cryptic-lowlands-31610.herokuapp.com/"
+            src={employeeDirectoryPic}
+            title="React Employee Directory"
+            description="An employee (superhero) directory that changes it's employee display order based on whichever category is clicked."
+            stack="HTML, CSS, JavaScript, React.js, Bootstrap"
+            github="https://github.com/egarcia1868/react-employee-dir"
+          />
+          <Card
+            url="https://project-2-3-21-20.herokuapp.com/"
+            src={expediLogPic}
+            title="expediLog"
+            description="An app for logging trip experiences - displaying the ability to use sequelize to store and retrieve data from databases."
+            stack="HTML, CSS, JavaScript, Express.js, MySQL / JawsDB, AJAX, REST API"
+            github="https://github.com/egarcia1868/expediLog"
+          />
+          <Card
+            url="https://whispering-ridge-27306.herokuapp.com/"
+            src={eatDaBurgerPic}
+            title="MVC Demo App"
+            description="A simple app displaying the ability to use the MVC (Model-View-Controller) design pattern."
+            stack="HTML, CSS, JavaScript, handlebars.js, Node.js, Express, MySQL / JawsDB, MVC / ORM, Boostrap"
+            github="https://github.com/egarcia1868/MVC-proof-of-concept"
+          />
+          <Card
+            url="https://egarcia1868.github.io/Casa-Cocktail/"
+            src={casaCocktailsPic}
+            title="Casa Cocktails"
+            description="An app for finding out what drinks can be made with what you have on hand including instruction on how to make them."
+            stack="H​TML, CSS, JavaScript, AJAX, jQuery, REST API"
+            github="https://github.com/egarcia1868/Casa-Cocktail"
+          />
+          <Card
+            url="https://egarcia1868.github.io/Weather_Dashboard/"
+            src={weatherAppPic}
+            title="Weather Dashboard"
+            description="An app that retrieves the current weather for a searched city along with the weather forecast for the next five days."
+            stack="HTML, CSS, JavaScript, AJAX, jQuery, Moment.js, Bootstrap, REST API"
+            github="https://github.com/egarcia1868/Weather_Dashboard"
+          />
+        </div>      
         <div className="col-xl-1 col-lg-1">
         </div>
       </div>
@@ -410,7 +312,7 @@ const Main = () => {
           </div>
           <div className="text-center col-md-4">
             <div className="container" style={{"display": "inline"}}>
-              <a href="./assets/Resume.pdf" target="_blank" rel="noreferrer">
+              <a href={resume} target="_blank" rel="noreferrer">
                 <i alt="resume icon" className="fas fa-file contactTextIcon">
                   <p className="skillsIconP contactText">
                     Resume
