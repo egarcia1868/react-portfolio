@@ -11,8 +11,8 @@ const Header = () => {
         <div id="topline" className="col-xl-4 col-lg-4 col-md-5 col-sm-9 col-8">
           <img src={headshot} alt="Eric Garcia" id="bioPic" />
           <div className="toptext">
-            <p>
-              Eric Garcia<br /><span style={{color: "#777777"}}>Full-Stack Web Developer</span>
+            <p style={{marginBottom: 0}}>
+              Eric Garcia</p><p style={{color: "#777777"}}>Full-Stack Web Developer
             </p>
           </div>
         </div>

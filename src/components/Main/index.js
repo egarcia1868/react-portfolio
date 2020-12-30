@@ -1,7 +1,22 @@
 
 // eslint-disable-next-line no-unused-vars
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Typing from "react-typing-animation";
+import Icon from "../Icon";
+import gitIcon from "../../assets/images/icons/giticon.png";
+import githubIcon from "../../assets/images/icons/github.png";
+import reactIcon from "../../assets/images/icons/reacticon.png";
+import nodeJSIcon from "../../assets/images/icons/node-js.png";
+import htmlIcon from "../../assets/images/icons/HTML_Logo_65687.png";
+import javaScriptIcon from "../../assets/images/icons/Javascripticon.png";
+import cssIcon from "../../assets/images/icons/css-512.png";
+import pythonIcon from "../../assets/images/icons/python.png";
+import mySQLicon from "../../assets/images/icons/MySQLicon.png";
+import mongoDBIcon from "../../assets/images/icons/MongoDBicon.png";
+import bootstrapIcon from "../../assets/images/icons/bootstrap-4.png";
+import herokuIcon from "../../assets/images/icons/Herokuicon.png";
+import jQueryIcon from "../../assets/images/icons/jQueryicon.png";
+import handlebarsIcon from "../../assets/images/icons/handlebarsJSicon.jpeg";
 import "./style.css";
 
 const Main = () => {
@@ -21,8 +36,7 @@ const Main = () => {
               <p>Or just need a hand with a project?</p>
               <Typing.Delay ms={1000} />
               <p>
-                <a className="gray" style={{"textDecoration": "none"}} href="mailto:egarcia1868@gmail.com"><span id="chat1"
-                >Let's chat</span></a> <span id="chat2">and see how I can help!</span>
+                <a className="gray" style={{"textDecoration": "none"}} href="mailto:egarcia1868@gmail.com">Let's chat</a> and see how I can help!
             </p>
             </Typing>
           </div>
@@ -66,8 +80,10 @@ const Main = () => {
         </div>
         <div className="col-xl-5 col-lg-5 col-6">
           <p className="bio skills">
-            Taking a project from an idea to a reality takes hard work and various skills. Here are some ways that I can
-            help you achieve your goals:
+            Taking a project from an idea to a reality takes hard work, a solid skillset, and the ability to overcome new challenges. 
+          </p>
+          <p className="bio skills">
+            Here are some ways that I can help you achieve your goals:
           </p>
         </div>
         <div className="col-xl-5 col-lg-5 col-6">
@@ -77,7 +93,7 @@ const Main = () => {
           <p className="bio">
             When working independently I work tenaciously to not only fulfill, but surpass expectations.
             <br />
-            When working in groups, I often find myself helping others or taking on additional tasks after finishing my original tasks early.
+            When working with a group, I often find myself helping others or taking on additional tasks after finishing my original tasks early.
           </p><br />
           <p className="bio titleSkills">
             Staying Current With Technology
@@ -101,101 +117,99 @@ const Main = () => {
         </div>
         <div className="col-xl-10 col-lg-10 col-12">
           <div style={{"marginBottom": "-125px"}}>
-            <p className="titleSkills bio skillIcons">
+            <p className="titleSkills bio skillIconsTitle">
               Some of the technologies that I am experienced with include:
             </p>
             <div className="row">
-              <div className="text-center mx-5 col">
-                <i alt="Git icon" className="fab skillsIcons fa-git-alt">
-                  <p className="skillsIconP">
-                    Git
+              <div className="col-1"></div>
+              <div className="text-center justify-content-center margBot col-10">
+                <Icon
+                  icon={gitIcon}
+                  tag="Git"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk00o5zjEMcohxeHYclsI1gR_8pViOQ%3A1609223705519&ei=Gc7qX_yUH4GZ5gKihpzoDA&q=git&oq=git&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIECCMQJzIKCAAQsQMQyQMQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzoECAAQRzoCCAA6CggAELEDEIMBEENQ6KgJWOOpCWDIqgloAHAEeACAAWiIAc0BkgEDMC4ymAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab&ved=0ahUKEwi8hdO6yfLtAhWBjFkKHSIDB80Q4dUDCA0&uact=5"
+                />
+                <Icon
+                  icon={githubIcon}
+                  tag="GitHub"
+                  url="https://www.google.com/search?q=github&rlz=1C5CHFA_enUS855US855&oq=github&aqs=chrome..69i57j35i39j69i60l2j69i65l2j69i60l2.1919j0j4&sourceid=chrome&ie=UTF-8"
+                />
+                <Icon
+                  icon={reactIcon}
+                  tag="React"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk01sHTsxSSGzK4-vN3rY1COlxD9fiQ%3A1609225186051&ei=4tPqX67cAsqG5wK_34iADw&q=react&oq=react&gs_lcp=CgZwc3ktYWIQAzIHCCMQyQMQJzIECCMQJzIHCAAQsQMQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIECAAQQzIHCAAQsQMQQzIECAAQQzoECAAQRzoFCAAQsQM6AggAOg4ILhCxAxCDARDHARCjAjoICAAQsQMQgwE6CAguEMcBEKMCOgsILhCxAxDHARCjAjoECC4QQzoKCAAQsQMQgwEQQ1DtWFi5XGDyXGgAcAR4AIABdogBuQOSAQMwLjSYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwiu1c_8zvLtAhVKw1kKHb8vAvAQ4dUDCA0&uact=5"
+                />
+                <Icon
+                  icon={nodeJSIcon}
+                  tag="nodeJS"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk01sHTsxSSGzK4-vN3rY1COlxD9fiQ%3A1609225186051&ei=4tPqX67cAsqG5wK_34iADw&q=nodejs&oq=nodejs&gs_lcp=CgZwc3ktYWIQAzIKCAAQsQMQyQMQQzIECAAQQzIECAAQQzIJCAAQsQMQChBDMgYIABAKEEMyBAgAEEMyBAgAEEMyAggAMgIIADIFCAAQsQM6BAgAEEc6BAgjECc6CAgAELEDEIMBOggILhCxAxCDAToOCC4QsQMQgwEQxwEQowI6BwgAEMkDEEM6BwgAELEDEEM6CggAELEDEIMBEEM6BwgAEBQQhwJQpHBYsXdg03hoAHAEeACAAYEBiAGeBZIBAzAuNpgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwiu1c_8zvLtAhVKw1kKHb8vAvAQ4dUDCA0&uact=5"
+                />
+                <Icon
+                  icon={htmlIcon}
+                  tag="HTML"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk01fg-NV3kbTDR0be-bQ1x7istFHaA%3A1609225235922&ei=E9TqX7TiN4Pl5gKSr734Ag&q=html&oq=html&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIHCAAQyQMQQzIGCAAQChBDMgQIABBDMgcIABCxAxBDMgQIABBDMgUIABCxAzICCAAyAggAMgIIADoECAAQRzoOCC4QsQMQgwEQxwEQowI6CwguELEDEMcBEKMCOggILhCxAxCDAToICAAQsQMQgwE6CggAELEDEIMBEENQn1JYllRg8VVoAHAEeACAAXeIAa4DkgEDMC40mAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab&ved=0ahUKEwj0t7OUz_LtAhWDslkKHZJXDy8Q4dUDCA0&uact=5"
+                />
+                <Icon
+                  icon={javaScriptIcon}
+                  tag="JavaScript"
+                  url="https://www.google.com/search?q=javascript&rlz=1C5CHFA_enUS855US855&oq=javascript&aqs=chrome.0.69i59l3j69i60l3j69i65j69i60.2399j0j4&sourceid=chrome&ie=UTF-8"
+                />
+                <Icon
+                  icon={cssIcon}
+                  tag="CSS"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk037AFezwop2YQ2H6u3Nd_B2PJYigw%3A1609225282401&ei=QtTqX--CGKXX5gK5urO4Ag&q=css&oq=css&gs_lcp=CgZwc3ktYWIQAzIECCMQJzIECCMQJzIKCAAQsQMQyQMQQzIECAAQQzIECAAQQzIECAAQQzIHCAAQsQMQQzIECAAQQzIECAAQQzIECAAQQzoECAAQRzoFCAAQsQM6CAgAELEDEIMBOg4ILhCxAxCDARDHARCjAlD7oQFY9qMBYOCsAWgAcAR4AIABe4gB1gKSAQMwLjOYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwjvq8iqz_LtAhWlq1kKHTndDCcQ4dUDCA0&uact=5"
+                />
+                <Icon
+                  icon={pythonIcon}
+                  tag="Python"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk00tfhyVYvaECKBNq41ih8l3uh2zxg%3A1609225305670&ei=WdTqX96xKIOV5wKsn42ACA&q=python&oq=python&gs_lcp=CgZwc3ktYWIQAzIKCAAQsQMQyQMQQzIHCAAQsQMQQzIECAAQQzIHCAAQsQMQQzIECAAQQzIHCAAQsQMQQzIECAAQQzIFCAAQsQMyAggAMgUIABCxAzoECAAQRzoECCMQJzoICAAQsQMQgwE6CAguELEDEIMBOgsILhCxAxDHARCjAjoFCC4QsQNQlZIDWNyVA2CGlwNoAHAEeACAAXaIAfoEkgEDMi40mAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab&ved=0ahUKEwiewtS1z_LtAhWDylkKHaxPA4AQ4dUDCA0&uact=5"
+                />
+                <Icon
+                  icon={mySQLicon}
+                  tag="MySQL"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk0159b_G93A00uFLOGeAm3MxuF8f2A%3A1609225951927&ei=39bqX8qAOPHt5gKTtYnoCg&q=mysql&oq=my&gs_lcp=CgZwc3ktYWIQAxgCMgQIIxAnMgQIIxAnMgcIABDJAxBDMgQIABBDMgQIABBDMgQILhBDMgQIABBDMgoIABCxAxCDARBDMggIABCxAxCDATIFCC4QsQM6BAgAEEc6BQgAELEDOg4ILhCxAxCDARDHARCjAjoLCC4QsQMQxwEQowI6CAguELEDEIMBUMpVWPlXYJloaABwA3gAgAF2iAHgAZIBAzAuMpgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab"
+                />
+                <Icon
+                  icon={mongoDBIcon}
+                  tag="MongoDB"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk02gKCmzEREpYtyXEU_gHF-3utbdxg%3A1609225358859&ei=jtTqX8P0M6_P5gLKvYjwBA&q=mongodb&oq=mongodb&gs_lcp=CgZwc3ktYWIQAzIHCCMQyQMQJzIECCMQJzIHCAAQsQMQQzIECAAQQzIHCAAQsQMQQzIHCAAQsQMQQzIHCAAQsQMQQzIECAAQQzINCAAQsQMQgwEQFBCHAjIHCAAQFBCHAjoECAAQRzoICC4QxwEQowI6AggAOggIABCxAxCDAToFCAAQsQM6DgguELEDEIMBEMcBEKMCOgQILhBDOggILhCxAxCDAToKCC4QxwEQrwEQJzoHCC4QsQMQQzoKCCMQsQIQyQMQJzoHCCMQsQIQJzoECAAQClCnnANY4qQDYIimA2gBcAR4AIABdIgB3QaSAQMxLjeYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwjD84LPz_LtAhWvp1kKHcoeAk4Q4dUDCA0&uact=5"
+                />
+                <Icon
+                  icon={bootstrapIcon}
+                  tag="Bootstrap"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk03sxVD16U9NgOQrhVumLMeyEa8A1g%3A1609225414284&ei=xtTqX93dEISG5wK7-5PoAw&q=bootstrap&oq=bootstrap&gs_lcp=CgZwc3ktYWIQAzIHCCMQyQMQJzIECCMQJzIECAAQQzIKCAAQsQMQFBCHAjICCAAyBwgAELEDEEMyBAgAEEMyBAgAEEMyBwgAELEDEEMyBAgAEEM6BAgAEEc6DgguELEDEIMBEMcBEKMCOggILhCxAxCDAToICAAQsQMQgwE6CwguELEDEMcBEKMCOgoIABCxAxCDARBDOgUIABCxA1DAbFimfmCxf2gAcAN4AIABiAGIAegHkgEDMi43mAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab&ved=0ahUKEwjd2Lnpz_LtAhUEw1kKHbv9BD0Q4dUDCA0&uact=5"
+                />
+                <Icon
+                  icon={herokuIcon}
+                  tag="Heroku"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk00_FczKgKSUAgf-jBgf1IxTmo1NMg%3A1609225431756&ei=19TqX4_aLYWc5gLJ4ojoCg&q=heroku&oq=heroku&gs_lcp=CgZwc3ktYWIQAzIKCAAQsQMQyQMQQzICCAAyBwgAEBQQhwIyBAgAEEMyBAgAEEMyAggAMgcIABAUEIcCMgIIADICCAAyBwgAELEDEEM6BAgAEEc6BAgjECc6DgguELEDEIMBEMcBEKMCOgsILhCxAxDHARCjAjoICAAQsQMQgwE6CAguELEDEIMBOgQILhBDOgcILhCxAxBDOgcIABDJAxBDULPcAViC5QFg8-YBaABwA3gAgAGbAYgBsQWSAQMzLjOYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwjPoeTxz_LtAhUFjlkKHUkxAq0Q4dUDCA0&uact=5"
+                />
+                <Icon
+                  icon={jQueryIcon}
+                  tag="jQuery"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk01TiXFRjneCP2HEXknNXKTS91hWMQ%3A1609225462515&ei=9tTqX8D5HpKu5wKdhZyQBw&q=jquery&oq=jquery&gs_lcp=CgZwc3ktYWIQAzIHCCMQyQMQJzIHCAAQsQMQQzIKCAAQsQMQFBCHAjIECAAQQzIFCAAQsQMyBQgAELEDMgUIABCxAzIFCAAQsQMyBQgAELEDMgUIABCxAzoECAAQRzoECCMQJzoICC4QsQMQgwE6DgguELEDEIMBEMcBEKMCOgsILhCxAxDHARCjAjoFCC4QsQM6AggAUJmMAVjlkAFg6JIBaABwA3gAgAF0iAHdBJIBAzMuM5gBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwjAzLmA0PLtAhUS11kKHZ0CB3IQ4dUDCA0&uact=5"
+                />
+                <Icon
+                  icon={handlebarsIcon}
+                  tag="Handlebars.js"
+                  url="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk0076uWh86YysSR2Y1UB8HUi31y_Ew%3A1609225482250&ei=CtXqX4DoDqb85gK95Ju4BQ&q=handlebars+js&oq=hanlde&gs_lcp=CgZwc3ktYWIQAxgFMgcIIxCxAhAnMgcIIxCxAhAnMg0IABCxAxCxAxDJAxBDMgQIABBDMgQIABBDMgcIABCxAxAKMgQIABAKMgQIABAKMgQIABAKMgcIABCxAxAKOgQIABBHOgQIIxAnOg4ILhCxAxCDARDHARCjAjoLCC4QsQMQxwEQowI6CAguELEDEIMBOggIABCxAxCDAToCCAA6BQgAELEDOgoIABCxAxDJAxBDOgcIABCxAxBDUND1AVj--AFgrpECaABwA3gBgAGQAYgBtwWSAQMwLjaYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab"
+                />
+                <i className="fab skillsIcons">
+                  <p className="noIconP">
+                    <a href="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk00cTUExQA9Mi9wLstZXzxAvUFnSbQ%3A1609225518224&ei=LtXqX5mVDYmm5wKhhoG4Cw&q=webpack&oq=webpack&gs_lcp=CgZwc3ktYWIQAzIKCAAQsQMQyQMQQzIECAAQQzIFCAAQkQIyCwgAELEDEIMBEJECMgQIABBDMgcIABAUEIcCMgcIABAUEIcCMgoIABCxAxCDARBDMgQIABBDMgQIABBDOgQIABBHOgQIIxAnOggIABCxAxCDAToLCC4QsQMQxwEQowI6DgguELEDEIMBEMcBEKMCOggILhCxAxCDAToFCAAQsQM6BwgAEMkDEENQw3lYzoIBYI6EAWgAcAR4AIABfYgB-wWSAQMyLjWYAQCgAQGqAQdnd3Mtd2l6yAEIwAEB&sclient=psy-ab&ved=0ahUKEwiZ5IGb0PLtAhUJ01kKHSFDALcQ4dUDCA0&uact=5" style={{textDecoration: "none"}} target="_blank" rel="noreferrer">WebPack</a>
                   </p>
                 </i>
-                <i alt="React.js icon" className="fab skillsIcons fa-react">
-                  <p className="skillsIconP">
-                    React
+                <i className="fab skillsIcons">
+                  <p className="noIconP">
+                    <a href="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk002bst1yUvc-CvWec2j48Yv6PCrOg%3A1609225575675&ei=Z9XqX5rVKIyu5wKHj4WoCw&q=express+js&oq=express+js&gs_lcp=CgZwc3ktYWIQAzIHCAAQsQMQQzIFCAAQkQIyAggAMgcIABCxAxBDMgIIADICCAAyAggAMgYIABAHEB4yAggAMgIIADoECAAQR1CPLFiPLGDLLWgAcAJ4AIABeYgBeZIBAzAuMZgBAKABAaoBB2d3cy13aXrIAQjAAQE&sclient=psy-ab&ved=0ahUKEwjapLS20PLtAhUM11kKHYdHAbUQ4dUDCA0&uact=5" target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>Express.js</a>
                   </p>
                 </i>
-                <i alt="Node.js icon" className="fab skillsIcons fa-node">
-                  <p className="skillsIconP">
-                    Node.js
-                  </p>
-                </i>
-                <i alt="HTML icon" className="fab skillsIcons fa-html5">
-                  <p className="skillsIconP">
-                    HTML 5
-                  </p>
-                </i>
-                <i alt="Javascript icon" className="fab skillsIcons fa-js-square">
-                  <p className="skillsIconP">
-                    Javascript
-                  </p>
-                </i>
-                <i alt="CSS icon" className="fab skillsIcons fa-css3-alt">
-                  <p className="skillsIconP">
-                    CSS 3
-                  </p>
-                </i>
-                <i alt="python icon" className="fab skillsIcons icon-python">
-                  <p className="skillsIconP">
-                    Python
-                  </p>
-                </i>
-                <i alt="mySQL icon" className="fab skillsIcons icon-mysql">
-                  <p className="skillsIconP">
-                    MySQL
-                  </p>
-                </i>
-                <i alt="Mongodb icon" className="fab skillsIcons icon-mongodb">
-                  <p className="skillsIconP">
-                    MongoDB
-                  </p>
-                </i>
-                <i alt="Bootstrap icon" className="fab skillsIcons fa-bootstrap">
-                  <p className="skillsIconP">
-                    Bootstrap
-                  </p>
-                </i>
-                <i alt="heroku icon" className="fab skillsIcons icon-heroku">
-                  <p className="skillsIconP">
-                    Heroku
-                  </p>
-                </i>
-                <i alt="jQuery icon" className="fab skillsIcons icon-jquery">
-                  <p className="skillsIconP">
-                    jQuery
+                <i className="fab skillsIcons">
+                  <p className="noIconP">
+                    <a href="https://www.google.com/search?rlz=1C5CHFA_enUS855US855&sxsrf=ALeKk01ERvF9dZ3Od2BLDI6rooSwodBv8Q%3A1609225675852&ei=y9XqX5zJM6-L5wLB_b-gDg&q=react+router&oq=react+router&gs_lcp=CgZwc3ktYWIQAzIICAAQsQMQyQMyAggAMgUIABCxAzIFCAAQsQMyBQgAELEDMggIABCxAxCDATICCAAyAggAMgIIADICCAA6BAgAEEc6BAgjECc6BAgAEEM6BwgAEMkDEEM6CggAELEDEMkDEEM6BwgAELEDEENQsdcIWIDlCGCh5ghoAHAEeACAAXiIAd4JkgEDNS43mAEAoAEBqgEHZ3dzLXdpesgBCMABAQ&sclient=psy-ab&ved=0ahUKEwjc2pbm0PLtAhWvxVkKHcH-D-QQ4dUDCA0&uact=5" target="_blank" rel="noreferrer" style={{textDecoration: "none"}}>React Router</a>
                   </p>
                 </i>
               </div>
-            </div>
-            <div className="row margBot">
-              <div className="text-center col">
-                <i className="fab skillsIcons">
-                  <p className="noIconP">
-                    WebPack
-                  </p>
-                </i>
-                <i className="fab skillsIcons">
-                  <p className="noIconP">
-                    Express
-                  </p>
-                </i>
-                <i className="fab skillsIcons">
-                  <p className="noIconP">
-                    Handlebars
-                  </p>
-                </i>
-                <i className="fab skillsIcons">
-                  <p className="noIconP">
-                    React Router
-                  </p>
-                </i>
-                <i className="fab skillsIcons">
-                  <p className="noIconP">
-                    Redux
-                  </p>
-                </i>
-              </div>
+              <div className="col-1"></div>
             </div>
           </div>
         </div>
