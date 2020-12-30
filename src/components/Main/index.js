@@ -20,7 +20,7 @@ import jQueryIcon from "../../assets/images/icons/jQueryicon.png";
 import handlebarsIcon from "../../assets/images/icons/handlebarsJSicon.jpeg";
 import boardGamePic from "../../assets/images/Boardgame.gif";
 import employeeDirectoryPic from "../../assets/images/react-employee-directory.gif";
-import expediLogPic from "../../assets/images/expediLog.png";
+import pupsterPic from "../../assets/images/pupsterDemo.gif";
 import eatDaBurgerPic from "../../assets/images/EatDaBurger.png";
 import casaCocktailsPic from "../../assets/images/CasaCocktailsPic.png";
 import weatherAppPic from "../../assets/images/WeatherScreenShot.png";
@@ -250,12 +250,12 @@ const Main = () => {
             github="https://github.com/egarcia1868/react-employee-dir"
           />
           <Card
-            url="https://project-2-3-21-20.herokuapp.com/"
-            src={expediLogPic}
-            title="expediLog"
-            description="An app for logging trip experiences - displaying the ability to use sequelize to store and retrieve data from databases."
-            stack="HTML, CSS, JavaScript, Express.js, MySQL / JawsDB, AJAX, REST API"
-            github="https://github.com/egarcia1868/expediLog"
+            url="https://pupster-app-react.herokuapp.com/"
+            src={pupsterPic}
+            title="Pupster App"
+            description="A demo app mainly to demonstrate my ability to use React, React Router, and REST API"
+            stack="HTML, CSS, JavaScript, React, React Router, Axios.js, REST API"
+            github="https://github.com/egarcia1868/PupsterApp"
           />
           <Card
             url="https://whispering-ridge-27306.herokuapp.com/"
