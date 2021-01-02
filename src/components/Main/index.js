@@ -242,7 +242,7 @@ const Main = () => {
             github="https://github.com/egarcia1868/A-La-Board"
           />
           <Card
-            url="https://cryptic-lowlands-31610.herokuapp.com/"
+            url="https://react-employee-directory1868.herokuapp.com/"
             src={employeeDirectoryPic}
             title="React Employee Directory"
             description="An employee (superhero) directory that changes it's employee display order based on whichever category is clicked."
