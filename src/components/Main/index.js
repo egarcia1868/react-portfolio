@@ -101,14 +101,14 @@ const Main = () => {
           <p className="bio">
             When working independently I work tenaciously to not only fulfill, but surpass expectations.
             <br />
-            When working with a group, I often find myself helping others or taking on additional tasks after finishing my original tasks early.
+            When working with a group, I often find myself helping others or taking on additional tasks after finishing my originally assigned tasks.
           </p><br />
           <p className="bio titleSkills">
             Staying Current With Technology
           </p>
           <p className="bio">
             In the field of web development, one must always be learning new languages and frameworks. I make it a point
-            to stay up to date with the latest and most widely used coding languages in the industry.
+            to stay up to date with the latest and most widely used coding languages, frameworks, and libraries in the industry.
           </p><br />
           <p className="bio titleSkills">
             Fast Learner
