@@ -19,9 +19,9 @@ import handlebarsIcon from "../../assets/images/icons/handlebarsJSicon.jpeg";
 import boardGamePic from "../../assets/images/Boardgame.gif";
 import employeeDirectoryPic from "../../assets/images/react-employee-directory.gif";
 import pupsterPic from "../../assets/images/pupsterDemo.gif";
-import eatDaBurgerPic from "../../assets/images/EatDaBurger.png";
-import casaCocktailsPic from "../../assets/images/CasaCocktailsPic.png";
-import weatherAppPic from "../../assets/images/WeatherScreenShot.png";
+// import eatDaBurgerPic from "../../assets/images/EatDaBurger.png";
+// import casaCocktailsPic from "../../assets/images/CasaCocktailsPic.png";
+// import weatherAppPic from "../../assets/images/WeatherScreenShot.png";
 import resume from "../../assets/Resume.pdf";
 import hero from "../../assets/images/portfolio-hero.png";
 import "./style.css";
@@ -236,30 +236,30 @@ const Main = () => {
             stack="HTML, CSS, JavaScript, React, React Router, Axios.js, REST API"
             github="https://github.com/egarcia1868/PupsterApp"
           />
-          <Card
+          {/*<Card
             url="https://whispering-ridge-27306.herokuapp.com/"
             src={eatDaBurgerPic}
             title="MVC Demo App"
             description="A simple app displaying the ability to use the MVC (Model-View-Controller) design pattern."
             stack="HTML, CSS, JavaScript, handlebars.js, Node.js, Express, MySQL / JawsDB, MVC / ORM, Boostrap"
             github="https://github.com/egarcia1868/MVC-proof-of-concept"
-          />
-          <Card
+          />*/}
+          {/*<Card
             url="https://egarcia1868.github.io/Casa-Cocktail/"
             src={casaCocktailsPic}
             title="Casa Cocktails"
             description="An app for finding out what drinks can be made with what you have on hand including instruction on how to make them."
             stack="H​TML, CSS, JavaScript, AJAX, jQuery, REST API"
             github="https://github.com/egarcia1868/Casa-Cocktail"
-          />
-          <Card
+          />*/}
+          {/*<Card
             url="https://egarcia1868.github.io/Weather_Dashboard/"
             src={weatherAppPic}
             title="Weather Dashboard"
             description="An app that retrieves the current weather for a searched city along with the weather forecast for the next five days."
             stack="HTML, CSS, JavaScript, AJAX, jQuery, Moment.js, Bootstrap, REST API"
             github="https://github.com/egarcia1868/Weather_Dashboard"
-          />
+          />*/}
         </div>      
         <div className="col-xl-1 col-lg-1">
         </div>
@@ -282,10 +282,10 @@ const Main = () => {
       <div className="container-fluid" id="contactInfo">
         <div className="row no-gutters">
           <div className="text-center col-md-4">
-            <div className="container" style={{"display": "inline"}}><a href="mailto:egarcia1868@gmail.com"><i alt="Email icon"
+            <div className="container" style={{"display": "inline"}}><a href="mailto:egarcia.austin.tx@gmail.com"><i alt="Email icon"
                   className="fas fa-envelope contactTextIcon">
                   <p className="skillsIconP" style={{"marginTop": "10px"}}>
-                    egarcia1868@gmail.com
+                    egarcia.austin.tx@gmail.com
                   </p>
                 </i></a></div>
           </div>
