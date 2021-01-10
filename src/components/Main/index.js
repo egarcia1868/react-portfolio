@@ -1,9 +1,7 @@
-
-// eslint-disable-next-line no-unused-vars
 import React from "react";
-import Typing from "react-typing-animation";
 import Icon from "../Icon";
 import Card from "../Card";
+import Hero from "../Hero";
 import gitIcon from "../../assets/images/icons/giticon.png";
 import githubIcon from "../../assets/images/icons/github.png";
 import reactIcon from "../../assets/images/icons/reacticon.png";
@@ -24,35 +22,16 @@ import pupsterPic from "../../assets/images/pupsterDemo.gif";
 import eatDaBurgerPic from "../../assets/images/EatDaBurger.png";
 import casaCocktailsPic from "../../assets/images/CasaCocktailsPic.png";
 import weatherAppPic from "../../assets/images/WeatherScreenShot.png";
-import resume from "../../assets/Resume.pdf"
+import resume from "../../assets/Resume.pdf";
+import hero from "../../assets/images/portfolio-hero.png";
 import "./style.css";
 
 const Main = () => {
 
   return (
     <main>
-      <div className="row" id="topSection">
-        <div className="col-xl-2 col-lg-2 col-1">
-        </div>
-        <div className="col-xl-8 col-lg-8 col-10">
-          <div id="intro">
-            <Typing speed={1}>
-              <p>Have an idea for a site or application?</p>
-              <Typing.Delay ms={1000} />
-              <p>Need to revamp an existing website?</p>
-              <Typing.Delay ms={1000} />
-              <p>Or just need a hand with a project?</p>
-              <Typing.Delay ms={1000} />
-              <p>
-                <a className="gray" style={{"textDecoration": "none"}} href="mailto:egarcia1868@gmail.com">Let's chat</a> and see how I can help!
-            </p>
-            </Typing>
-          </div>
-        </div>
-        <div className="col-xl-2 col-lg-2 col-1">
-        </div>
-        <div className="col-12"></div>
-      </div>
+      <Hero backgroundImage={hero}
+      />
       <div className="labelBar" id="about">
         <h1>
           About Me
