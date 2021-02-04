@@ -3,6 +3,7 @@ import "./style.css";
 import headshot from "../../assets/images/face234.png"
 
 const Header = () => {
+  alert("site under construction as of 3/4/21");
   return (
     <div className="container-fluid" id="sticky">
       <div className="row">
